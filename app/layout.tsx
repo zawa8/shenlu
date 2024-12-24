@@ -7,18 +7,12 @@ import { ThemeProvider } from "next-themes";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-//import LocalFont from "@/lib/local-font";
 import { hin115_font, ing115_font } from '@/fonts';
 import { HomePage } from "@/data/meta-data";
 
 export const metadata: Metadata = HomePage.metadata;
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
+export default function RootLayout({ children, }: { children: React.ReactNode; }) { return (
     <html lang="en" suppressHydrationWarning={true}>
       <body className={`flex flex-col h-screen ${hin115_font.className}`}>
         <ThemeProvider enableSystem={true} attribute="class">
@@ -28,13 +22,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </ThemeProvider>
-        {process.env.NODE_ENV === "production" && (
-          <Script
-            async
-            src={process.env.UMAMI_SCRIPT_URL}
-            data-website-id={process.env.UMAMI_DATA_WEBSITE_ID}
-          />
-        )}
+        {process.env.NODE_ENV === "production" && ( <Script async src={process.env.UMAMI_SCRIPT_URL} data-website-id={process.env.UMAMI_DATA_WEBSITE_ID} /> )}
       </body>
     </html>
   );

@@ -1,40 +1,26 @@
 const HeaderNavLinks = [
-  {
-    title: "Home",
-    href: "/",
-  },
-  {
-    title: "Blog",
-    href: "/blog",
-  },
-  {
-    title: "Works",
-    href: "/works",
-  },
-  {
-    title: "About",
-    href: "/about",
-  },
+  { title: "Home", href: "/", }, { title: "blog", href: "/blog", },
+  { title: "vorks", href: "/works", }, { title: "About", href: "/about", },
 ];
 
 const HomePage = {
   metadata: {
-    metadataBase: new URL("https://shenlu.me"),
+    metadataBase: new URL("https://zava8.github.io"),
     title: {
-      default: "Shen Lu's Blog",
-      template: `%s | Shen Lu's Blog`,
+      default: "vimAl blog <- shen lu's blog",
+      template: `%s | shen lu's blog`,
     },
-    description: "Indie developer and data visualisation enthusiast.",
+    description: "news in fonts bAsed on Hscii : hex symbolic code for informAtion interchAnge",
     openGraph: {
-      title: "Shen Lu",
-      description: "Indie developer and data visualisation enthusiast.",
-      url: "https://shenlu.me",
-      siteName: "Shen Lu",
+      title: "zava8",
+      description: "indie developer and data visualisation enthusiast.",
+      url: "https://zava8.github.io",
+      siteName: "Hscii fonts news",
       locale: "en-US",
       type: "website",
     },
     twitter: {
-      title: "Shen Lu",
+      title: "etphor 8+8=10=4*4",
       card: "summary_large_image",
     },
     robots: {
@@ -60,30 +46,30 @@ const HomePage = {
 
 const WorksPage = {
   metadata: {
-    title: "Works",
-    description: "The works I had made over the years.",
+    title: "Hscii fonts keypAd",
+    description: "The works i had made over the years for Hscii fonts keypAd",
   },
   showcase: [
     {
-      href: "https://mathcheap.xyz",
-      title: "Mathcheap",
+      href: "https://zava8.vercel.app",
+      title: "zava8 lANguAge(Hscii)",
       logoUrl: "/images/mathcheap-logo.svg",
       imageUrl: "/images/mathcheap-showcase.png",
-      description: "A dead simple online LaTeX equation editor.",
+      description: "zava8 bAsed on Hscii(hex symbolic code for informAtion interchAnge) based fonts",
     },
     {
-      href: "https://aes.shenlu.me",
-      title: "Amazing Endemic Species",
+      href: "https://zs8.vercel.app",
+      title: "zavascript8 bAsed on Hscii",
       logoUrl: "/images/aes-logo.svg",
       imageUrl: "/images/aes-showcase.png",
       description:
-        "An open-source, community-driven SaaS (Species-as-a-Service) application.",
+        "zavascript8 bAsed on Hscii(hex symbolic code for informAtion interchAnge) based fonts",
     },
   ],
 };
 
 const AboutPage = {
-  metadata: { title: "About", description: "That is all about me." },
+  metadata: { title: "Hscii based fonts", description: "iNglish31 = a-z + 5ADHTN . fb.com/ztrabc . iNglish31 And indiAn_koreAn_115.ttf/woff2" },
 };
 
 export { HeaderNavLinks, HomePage, WorksPage, AboutPage };
