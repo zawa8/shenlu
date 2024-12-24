@@ -6,12 +6,14 @@ import { usePathname } from "next/navigation";
 
 import { HeaderNavLinks } from "@/data/meta-data";
 import ThemeSwitcher from "@/components/theme-switcher";
+import FontPicker from "./FontPicker";
 
 const Header: NextPage = () => {
   const pathname = usePathname();
 
   return (
     <header className="flex max-w-3xl container mx-auto px-6 py-4">
+      <FontPicker />
       <nav className="flex w-full">
         <ul className="flex flex-1 ml-[-0.5rem] justify-center md:flex-row md:justify-start space-x-4 md:space-x-0">
           {HeaderNavLinks?.map((nav: any) => (
@@ -29,6 +31,10 @@ const Header: NextPage = () => {
             </li>
           ))}
         </ul>
+        
+        {/* <div className="fixed md:relative left-6 md:!left-0 bottom-6 md:!bottom-0 z-50">
+          <FontPicker />
+        </div> */}
         <div className="fixed md:relative left-6 md:!left-0 bottom-6 md:!bottom-0 z-50">
           <ThemeSwitcher />
         </div>

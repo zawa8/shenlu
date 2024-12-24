@@ -7,7 +7,8 @@ import { ThemeProvider } from "next-themes";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import LocalFont from "@/lib/local-font";
+//import LocalFont from "@/lib/local-font";
+import { hin115_font, ing115_font } from '@/fonts';
 import { HomePage } from "@/data/meta-data";
 
 export const metadata: Metadata = HomePage.metadata;
@@ -19,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className={`flex flex-col h-screen ${LocalFont.className}`}>
+      <body className={`flex flex-col h-screen ${hin115_font.className}`}>
         <ThemeProvider enableSystem={true} attribute="class">
           <Header />
           <main className="max-w-3xl container text-black dark:text-white mx-auto px-6 py-6 flex-1 leading-6">
