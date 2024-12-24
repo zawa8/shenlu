@@ -29,18 +29,18 @@ const handlevaluechange = (e: React.ChangeEvent<HTMLSelectElement>) => {
   document.body.classList.add("antialiased");  
 };
 return (
-  <select onChange={handlevaluechange} className="select select-accent mx-4 w-min max-w-xs">
+  <select onChange={handlevaluechange} className="select text-zinc-50 italic font-bold bg-black mx-4 w-1/4">
     <option value="0">iNg115_font</option>
-    <option value="1">hin115_font</option>
-    <option value="2">bangla115_font</option>
-    <option value="3">telugu115_font</option>
-    <option value="4">mlyalm115_font</option>
-    <option value="5">tmil115_font</option>
-    <option value="6">kannada115_font</option>
+    <option value="1">Hin115_font</option>
+    <option value="2">baNgla115_font</option>
+    <option value="3">Telugu115_font</option>
+    <option value="4">mAlAyalAm115_font</option>
+    <option value="5">TAmil115_font</option>
+    <option value="6">kAnnadA115_font</option>
     <option value="7">odia115_font</option>
     <option value="8">sinhala115_font</option>
     <option value="9">pnzabi115_font</option>
-    <option value="L">guzrati115_font</option>
+    <option value="L">guzraTi115_font</option>
     <option value="J">binaryvertical115_font</option>
   </select>
 );

@@ -12,10 +12,10 @@ const Header: NextPage = () => {
   const pathname = usePathname();
 
   return (
-    <header className="flex max-w-3xl container mx-auto px-6 py-4">
-      <FontPicker />
-      <nav className="flex w-full">
-        <ul className="flex flex-1 ml-[-0.5rem] justify-center md:flex-row md:justify-start space-x-4 md:space-x-0">
+    <header className="flex max-w-3xl container mx-auto px-6 py-4">      
+      <nav className="flex flex-wrap w-auto">
+        {/* <ul className="flex flex-1 ml-[-0.5rem] justify-center md:flex-row md:justify-start space-x-1 md:space-x-0"> */}
+        <ul className="flex flex-wrap items-center justify-center text-gray-900 dark:text-white">
           {HeaderNavLinks?.map((nav: any) => (
             <li key={nav?.title}>
               <Link
@@ -31,10 +31,7 @@ const Header: NextPage = () => {
             </li>
           ))}
         </ul>
-        
-        {/* <div className="fixed md:relative left-6 md:!left-0 bottom-6 md:!bottom-0 z-50">
-          <FontPicker />
-        </div> */}
+        <FontPicker />
         <div className="fixed md:relative left-6 md:!left-0 bottom-6 md:!bottom-0 z-50">
           <ThemeSwitcher />
         </div>
