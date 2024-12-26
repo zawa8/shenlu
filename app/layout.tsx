@@ -14,7 +14,7 @@ export const metadata: Metadata = HomePage.metadata;
 
 export default function RootLayout({ children, }: { children: React.ReactNode; }) { return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className={`flex flex-col h-screen ${hin115_font.className}`}>
+      <body className={`flex flex-col h-screen ${ing115_font.className}`}>
         <ThemeProvider enableSystem={true} attribute="class">
           <Header />
           <main className="max-w-3xl container text-black dark:text-white mx-auto px-6 py-6 flex-1 leading-6">

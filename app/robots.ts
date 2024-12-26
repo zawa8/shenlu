@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/'
     },
-    sitemap: 'https://shenlu.me/sitemap.xml',
-    host: 'https://shenlu.me'
+    sitemap: 'https://aaztk.vercel.app/sitemap.xml',
+    host: 'https://aaztk.vercel.app/'
   }
 }
