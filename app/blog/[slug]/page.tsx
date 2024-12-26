@@ -18,19 +18,19 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
       <div className="flex items-start justify-between w-full md:flex-row my-8">
         <div className="flex items-center">
           <Image
-            alt="Shen Lu"
+            alt="vimAl_kumar"
             height={36}
             width={36}
             sizes="20vw"
-            src="/images/avatar.jpg"
+            src="/images/avatarbw.png"
             className="rounded-full mt-0 mb-0"
             priority
           />
           <div className="ml-2 text-sm text-slate-600 dark:text-slate-400">
             <span className="flex text-black dark:text-slate-200 font-bold">
-              Shen Lu
+            vimAl_kumar
             </span>
-            <div>Posted on {post.publishedAt}</div>
+            <div>posted on {post.publishedAt}</div>
           </div>
         </div>
         <div className="flex flex-col text-sm text-slate-600 dark:text-slate-400 min-w-32 md:mt-0">

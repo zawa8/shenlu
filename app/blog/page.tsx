@@ -32,7 +32,7 @@ export default function Blog() {
   return (
     <>
       <div className="flex flex-col relative w-full">
-        <h1 className="font-extrabold text-2xl tracking-tight mb-4">Blog</h1>
+        <h1 className="font-extrabold text-2xl tracking-tight mb-4">blog</h1>
         <p className="mb-4 text-slate-600 dark:text-slate-400">
           {`I've written `}
           <strong className="text-black dark:text-white">

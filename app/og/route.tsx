@@ -8,18 +8,14 @@ export const runtime = "edge";
 export async function GET(request: Request) {
   // Make sure the font exists in the specified path:
   try {
-    const extraBold = await fetch(
-      new URL("../../public/fonts/Cantarell-ExtraBold.otf", import.meta.url)
-    ).then((res) => res.arrayBuffer());
-    const regular = await fetch(
-      new URL("../../public/fonts/Cantarell-Regular.otf", import.meta.url)
-    ).then((res) => res.arrayBuffer());
+    const extraBold = await fetch( new URL("../../public/fonts/Cantarell-ExtraBold.otf", import.meta.url) ).then((res) => res.arrayBuffer());
+    const regular = await fetch( new URL("../../public/fonts/Cantarell-Regular.otf", import.meta.url) ).then((res) => res.arrayBuffer());
     const url = request.url.replaceAll("&amp%3B", "&");
     const { searchParams } = new URL(url);
 
     // ?title=<title>
     const hasTitle = searchParams.has("title");
-    const title = hasTitle ? searchParams.get("title") : "Shen Lu";
+    const title = hasTitle ? searchParams.get("title") : "vimAl kumar";
 
     // ?time=<time>
     const hasTime = searchParams.has("time");
@@ -72,8 +68,8 @@ export async function GET(request: Request) {
             <div tw="flex items-center">
               <img
                 tw="w-24 h-24 rounded-full mr-8"
-                src="https://shenlu.me/images/avatar.png"
-                alt="Shen Lu"
+                src="https://aaztk.vercel.app/images/avatar.png"
+                alt="vimAl kumar"
               />
               <div tw="flex flex-col">
                 <span tw="flex text-4xl font-extrabold mb-4">{HomePage.title}</span>
@@ -85,7 +81,7 @@ export async function GET(request: Request) {
             <div tw="flex items-center">
               <img
                 tw="w-24 h-24"
-                src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shenlu.me/blog/${slug}`}
+                src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://aaztk.vercel.app/blog/${slug}`}
               />
             </div>
           </div>
@@ -93,25 +89,9 @@ export async function GET(request: Request) {
       ),
       {
         fonts: [
-          {
-            name: "Cantarell",
-            data: extraBold,
-            weight: 800,
-            style: "normal",
-          },
-          {
-            name: "Cantarell",
-            data: regular,
-            weight: 400,
-            style: "normal",
-          },
-        ],
-      }
+          { name: "Cantarell", data: extraBold, weight: 800, style: "normal", },
+          { name: "Cantarell", data: regular, weight: 400, style: "normal", },
+        ], }
     );
-  } catch (e: any) {
-    console.error(e);
-    return new Response(`Failed to generate the image`, {
-      status: 500,
-    });
-  }
+  } catch (e: any) { console.error(e); return new Response(`Failed to generate the image`, { status: 500, }); }
 }
