@@ -2,29 +2,12 @@
 const nextConfig = {
   // Optionally, add any other Next.js config below
   reactStrictMode: true,
-  swcMinify: true,
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: securityHeaders
-      }
-    ]
-  },
+  // swcMinify: true,
+  async headers() { return [ { source: '/(.*)', headers: securityHeaders } ] },
   images: {
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'aes.shenlu.me',
-        port: '',
-        pathname: '/images/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'api.qrserver.com',
-        port: '',
-        pathname: '/v1/create-qr-code/**',
-      },
+      { protocol: 'https', hostname: 'aaztk.vercel.app', port: '', pathname: '/images/**', },
+      { protocol: 'https', hostname: 'api.qrserver.com', port: '', pathname: '/v1/create-qr-code/**', },
     ],
   },
 }

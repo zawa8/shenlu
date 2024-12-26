@@ -23,7 +23,7 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
             width={36}
             sizes="20vw"
             src="/images/avatarbw.png"
-            className="rounded-full mt-0 mb-0"
+            className="mt-0 mb-0"
             priority
           />
           <div className="ml-2 text-sm text-slate-600 dark:text-slate-400">

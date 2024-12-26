@@ -6,17 +6,8 @@ import { IoLogoJavascript, IoLogoVercel } from "react-icons/io5";
 import { TbBrandVscode, TbBrandThreejs } from "react-icons/tb";
 import { TfiEmail } from "react-icons/tfi";
 import { DiRedis } from "react-icons/di";
-
-import {
-  SiVim,
-  SiPrisma,
-  SiPostgresql,
-  SiSqlite,
-  SiDrizzle,
-} from "react-icons/si";
-
+import { SiVim, SiPrisma, SiPostgresql, SiSqlite, SiDrizzle, } from "react-icons/si";
 import { AboutPage } from "@/data/meta-data";
-
 export const metadata: Metadata = AboutPage.metadata;
 
 const techStackIcons = [
@@ -43,20 +34,14 @@ export default function About() {
     <div className="flex flex-col relative max-w-none prose dark:prose-invert">
       <h1>About</h1>
       <div>
-        <div>
-          <p>
-            Hello👋. mei vimAl kumar web developer Hu. mere skills typescript reAct nextjs Hei..
-          </p>
-        </div>
+        <div> <p> Hello👋. mei vimAl kumar web developer Hu. mere skills typescript reAct nextjs Hei.. </p> </div>
         <hr />
         <h2>shiksha</h2>
         <p>
           2012-2016,{" "}
           <b>bAchelor degree in mAnufActuriNg process And AutomAtion</b>,
           neTaji subhash institute of technology ,{" "}
-          <Link target="_blank" href="https://www.du.ac.in/">
-            [delHi university]
-          </Link>
+          <Link target="_blank" href="https://www.du.ac.in/"> [delHi university] </Link>
         </p>
         <hr />
         <h2>tech stAck</h2>
@@ -76,12 +61,7 @@ export default function About() {
         <h2>Contact</h2>
         <li className="flex items-center space-x-2 mb-4" title="Email">
           <TfiEmail className="w-5 h-5" />
-          <Link
-            href="mailto: vimAlkg@gmail.com"
-            className="underline-offset-[3px] hover:underline hover:text-black"
-          >
-            vimAlkg@gmail.com
-          </Link>
+          <Link href="mailto: vimAlkg@gmail.com" className="underline-offset-[3px] hover:underline hover:text-black" > vimAlkg@gmail.com </Link>
         </li>
       </div>
     </div>
