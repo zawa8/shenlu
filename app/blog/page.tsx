@@ -34,20 +34,16 @@ export default function Blog() {
       <div className="flex flex-col relative w-full">
         <h1 className="font-extrabold text-2xl tracking-tight mb-4">blog</h1>
         <p className="mb-4 text-slate-600 dark:text-slate-400">
-          {`I've written `}
-          <strong className="text-black dark:text-white">
-            {allPosts.length}
-          </strong>
+          {`i Have written `}
+		  <strong className="text-black dark:text-white"> {allPosts.length} </strong>
           {` posts since `}
-          <strong className="text-black dark:text-white">2019</strong>
+          <strong className="text-black dark:text-white">2024</strong>
           {`, using the search below to filter by title.`}
         </p>
         <div className="relative w-full mb-4">
           <HiMiniMagnifyingGlass className="flex left-3 top-1/2 translate-y-[-50%] absolute w-5 h-5 text-slate-400" />
           <BsXCircleFill
-            onClick={() => {
-              setserachPosts("");
-            }}
+            onClick={() => { setserachPosts(""); }}
             className={`${
               !serachPosts && "hidden"
             } flex right-3 top-1/2 translate-y-[-50%] absolute w-5 h-5 text-slate-400 hover:text-black cursor-pointer`}

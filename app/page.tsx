@@ -10,7 +10,7 @@ export default function Home() {
           <h2 className="font-bold capitalize">{HomePage.description}</h2>
           <p className="mb-4 text-slate-600 dark:text-slate-400"> {HomePage.motto} </p>
         </div>
-        <Image className="flex relative mx-auto md:mr-auto rounded-full" alt={HomePage.title} width={110} height={110} src={HomePage.avatar_url} priority />
+        <Image className="flex relative mx-auto md:mr-auto" alt={HomePage.title} width={110} height={110} src={HomePage.avatar_url} priority />
       </div>
       <hr className="border-slate-200 dark:border-slate-600" />
       <div className="flex flex-col relative w-full space-y-4"></div>

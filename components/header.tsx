@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 import { HeaderNavLinks } from "@/data/meta-data";
 import ThemeSwitcher from "@/components/theme-switcher";
-import FontPicker from "./FontPicker";
+import FontPicker from "@/components/lifonts/lifonts";
 
 const Header: NextPage = () => {
   const pathname = usePathname();

@@ -11,10 +11,10 @@ const { showcase } = WorksPage;
 export default function Works() {
   return (
     <div className="flex flex-col relative max-w-none prose dark:prose-invert">
-      <h1>Works</h1>
+      <h1>works</h1>
       <div>
         <div>
-          <p>The works I had made over the years.</p>
+          <p>The works i had made over the years.</p>
         </div>
         <hr />
         <h2>Projects</h2>
@@ -59,35 +59,18 @@ export default function Works() {
         <hr />
         <h2>Publications</h2>
         <strong>
-          Searching large-scale scRNA-seq databases via unbiased cell embedding
+          Hscii5 fonts keypads/keyboard rust8 cpp8 zAvA8 zs8/typescript8 iNglish31=a-z+ADHNT
         </strong>
         <p>
-          Zhi-Jie Cao, Lin Wei, <strong>Shen Lu</strong>, De-Chang Yang, Ge Gao{" "}
-          {` `}
-          <Link
-            target="_blank"
-            href="https://doi.org/10.1038/s41467-020-17281-7"
-          >
-            [Nature Communications]
-          </Link>
+          how to build rust for hscii chart for more programing symbols and less capital letters ?
+		  <Link target="_blank" href="https://www.reddit.com/r/rust/comments/1huoq4z/how_to_build_rust_for_hscii_chart_for_more/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" > [rust for Hscii ] </Link>
         </p>
         <strong>
-          Genomic Architecture of Cells in Tissues (GeACT): Study of Human
-          Mid-gestation Fetus
+          Hscii Hex symbolic code for information interchage. fonts keypads transliterator
         </strong>
         <p>
-          Feng Tian, Fan Zhou, Xiang Li, Wenping Ma, Honggui Wu, Ming Yang, Alec
-          R. Chapman, David F. Lee, Longzhi Tan, Dong Xing, Guangjun Yin, Ayjan
-          Semayel, Jing Wang, Jia Wang, Wenjie Sun, Runsheng He, Siwei Zhang,
-          Zhijie Cao, Lin Wei, <strong>Shen Lu </strong>, Dechang Yang, Yunuo
-          Mao, Yuan Gao, Kexuan Chen, Yu Zhang, Xixi Liu, Jun Yong, Liying Yan,
-          Yanyi Huang, Jie Qiao, Fuchou Tang, Ge Gao, X. Sunney Xie {` `}
-          <Link
-            target="_blank"
-            href="https://www.biorxiv.org/content/10.1101/2020.04.12.038000v1"
-          >
-            [bioRxiv]
-          </Link>
+          Hscii 8fiNger maThs 01234567 89LJBWEF 10=vnti=8+8=4*4
+		  <Link target="_blank" href="https://github.com/zava8/plong" > [Hscii_8fgrm plong] </Link>
         </p>
       </div>
     </div>

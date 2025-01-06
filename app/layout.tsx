@@ -7,7 +7,7 @@ import { ThemeProvider } from "next-themes";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import { hin115_font, ing115_font } from '@/fonts';
+import { hin115_font, ing115_font } from '@/components/lifonts/lifonts';
 import { HomePage } from "@/data/meta-data";
 
 export const metadata: Metadata = HomePage.metadata;

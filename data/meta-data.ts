@@ -20,22 +20,22 @@ const HomePage = {
     robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-video-preview": -1, "max-snippet": -1, }, },
     icons: { shortcut: "/icon.svg", },
   },
-  title: "vimAl kumar",
-  description: "Hscii developer keypAd font transliterAtor",
-  motto: "Hscii 8finger mAThs 5adhtn 5ADHTN ",
+  title: "vimal kumAr",
+  description: "Hscii developer keypad font transliterator",
+  motto: "Hscii 8finger maThs 5adhtn 5ADHTN ",
   url: "https://aaztk.vercel.app",
-  avatar_url: "/images/avatarbw.jpg",
+  avatar_url: "/images/8ledlogo.png",
 };
 
 const WorksPage = {
-  metadata: { title: "Hscii fonts keypAd", description: "The works i had made over the years for Hscii fonts keypAd", },
+  metadata: { title: "Hscii fonts keypad", description: "The works i had made over the years for Hscii fonts keypad", },
   showcase: [
     {
       href: "https://aaztk.vercel.app",
-      title: "zava8 lANguAge(Hscii)",
+      title: "zAvA8 laNguage(Hscii)",
       logoUrl: "/images/mathcheap-logo.svg",
       imageUrl: "/images/mathcheap-showcase.png",
-      description: "zava8 bAsed on Hscii(hex symbolic code for informAtion interchAnge) based fonts",
+      description: "zAvA8 based on Hscii(hex symbolic code for information interchange) based fonts",
     },
     {
       href: "https://aaztk.vercel.app",
@@ -43,13 +43,13 @@ const WorksPage = {
       logoUrl: "/images/aes-logo.svg",
       imageUrl: "/images/aes-showcase.png",
       description:
-        "zavascript8 bAsed on Hscii(hex symbolic code for informAtion interchAnge) based fonts",
+        "zAvAscript8 based on Hscii(hex symbolic code for information interchange) based fonts",
     },
   ],
 };
 
 const AboutPage = {
-  metadata: { title: "Hscii based fonts", description: "iNglish31 = a-z + 5ADHTN . fb.com/ztrabc . iNglish31 And indiAn_koreAn_115.ttf/woff2" },
+  metadata: { title: "Hscii based fonts", description: "iNglish31 = a-z + 5ADHTN . fb.com/ztrabc . iNglish31 and indian_korean_115.ttf/woff2" },
 };
 
 export { HeaderNavLinks, HomePage, WorksPage, AboutPage };
