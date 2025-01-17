@@ -1,52 +1,48 @@
-import localFont from "next/font/local";
-
-export const eng115_font = localFont({ src: "./fonts/eng115.woff2", display: "swap", });
-export const ing115_font = localFont({ src: "./fonts/ing115.woff2", display: "swap", });
-export const hingl115_font = localFont({ src: "./fonts/hingl115.woff2", display: "swap", });
-export const hingu115_font = localFont({ src: "./fonts/hingu115.woff2", display: "swap", });
-export const seg115_font = localFont({ src: "./fonts/seg115.woff2", display: "swap", });
-export const hin115_font = localFont({ src: "./fonts/hin115.woff2", display: "swap", });
-export const bangla115_font = localFont({ src: "./fonts/bangla115.woff2", display: "swap", });
-export const telugu115_font = localFont({ src: "./fonts/telugu115.woff2", display: "swap", });
-export const mlyalm115_font = localFont({ src: "./fonts/mlyalm115.woff2", display: "swap", });
-export const tmil115_font = localFont({ src: "./fonts/tmil115.woff2", display: "swap", });
-export const korean115_font = localFont({ src: "./fonts/korean115.woff2", display: "swap", });
-
-export const kannada115_font = localFont({ src: "./fonts/kannada115.woff2", display: "swap", });
-export const guzrati115_font = localFont({ src: "./fonts/guzrati115.woff2", display: "swap", });
-export const gurmukhi115_font = localFont({ src: "./fonts/gurmukhi115.woff2", display: "swap", });
-export const odia115_font = localFont({ src: "./fonts/odia115.woff2", display: "swap", });
-export const sinhala115_font = localFont({ src: "./fonts/sinhala115.woff2", display: "swap", });
-export const hex115_font = localFont({ src: "./fonts/hex115.woff2", display: "swap", });
-export const binaryvertical115_font = localFont({ src: "./fonts/binaryvertical115.woff2", display: "swap", });
-export const binaryhoriontal115_font = localFont({ src: "./fonts/binaryhoriontal115.woff2", display: "swap", });
-export const hscii115_font = localFont({ src: "./fonts/hscii115.woff2", display: "swap", });
+import {
+  binaryv115, binaryh115, hex115, ing115, eng115,
+  ///////////
+  bangla115, gurmukhi115,  hindi115, malayalam115,  tamil115,
+  guzrati115, kannada115,  oriya115, telugu115,
+  korean115,   sinhala115,
+  ///////////
+  bangla15, guzrati15, kannada15, malayalam15, sinhala15, telugu15,
+  gurmukhi15, hindi15, korean15, oriya15, tamil15,  
+  ///////////
+  bangla25, guzrati25, kannada25, malayalam25, sinhala25, telugu25,
+  gurmukhi25, hindi25, korean25, oriya25, tamil25,  
+  ///////////
+  lbangla15, lhindi15, lmalayalam15, ltamil15,
+  lgurmukhi15, lkannada15, loriya15, ltelugu15,
+  lguzrati15, lkorean15, lsinhala15,  
+  ///////////
+  ubangla25, uhindi25, umalayalam25, utamil25,
+  ugurmukhi25, ukannada25, uoriya25, utelugu25,
+  uguzrati25, ukorean25, usinhala25
+} from "./localfonts";
 
 const FontPicker: React.FC = () => {
   const handlevaluechange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     document.body.className = "";
     const v_to_f = (sval: string): string => {
       switch (sval) {
-        case "0": return hingu115_font.className;
-        case "1": return hin115_font.className;
-        case "2": return hingl115_font.className;
-        case "3": return ing115_font.className;
-        case "4": return sinhala115_font.className;
-        case "5": return korean115_font.className;
-        case "6": return tmil115_font.className;
-        case "7": return kannada115_font.className;
-        case "8": return mlyalm115_font.className;
-        case "9": return telugu115_font.className;
-        case "L": return odia115_font.className;
-        case "J": return bangla115_font.className;
-        case "B": return gurmukhi115_font.className;
-        case "W": return hex115_font.className;
-        case "E": return guzrati115_font.className;
-        case "F": return eng115_font.className;
-        case "10": return hscii115_font.className;
-        case "11": return seg115_font.className;
-        case "12": return binaryvertical115_font.className;
-        default: return seg115_font.className;
+        case "0": return ing115.className;
+        case "1": return hindi15.className;
+        case "2": return bangla15.className;
+        case "3": return korean15.className;
+        case "4": return sinhala15.className;
+        case "5": return tamil15.className;
+        case "6": return telugu15.className;
+        case "7": return kannada15.className;
+        case "8": return malayalam15.className;
+        case "9": return oriya15.className;
+        case "Y": return guzrati15.className;
+        case "J": return gurmukhi15.className;
+        case "Q": return binaryv115.className;
+        case "W": return lhindi15.className;
+        case "P": return uhindi25.className;
+        case "F": return hindi25.className;
+        case "10": return eng115.className;
+        default: return hindi15.className;
       }
     };
     const sf = v_to_f(e.target.value);
@@ -58,25 +54,23 @@ const FontPicker: React.FC = () => {
       onChange={handlevaluechange}
       className="select text-zinc-50 italic font-bold bg-black mx-4 w-1/4"
     >
-      <option value="0">0_HiNgu115_font</option>
-      <option value="1">1_Hin115_font</option>
-      <option value="2">2_HiNgl115_font</option>
-      <option value="3">3_iNg31:a-z+ADHTN</option>
-      <option value="4">4_sinHalA115_font</option>
-      <option value="5">4_korean115_font</option>
-      <option value="6">6_Tamil115_font</option>
-      <option value="7">7_kannadA115_font</option>
-      <option value="8">8_malayAlam115_font</option>
-      <option value="9">9_Telugu115_font</option>
-      <option value="L">L_odiA115_font</option>
-      <option value="J">J_bANglA115_font</option>
-      <option value="B">B_gurmukhi115_font</option>
-      <option value="W">W_hex(89LJBWEF 10=vnti=4*4)</option>
-      <option value="E">E_guzrATi115_font</option>
-      <option value="F">F_Eng52:a-zA-Z</option>
-      <option value="10">10_Hscii115_font</option>
-      <option value="11">11_7seglcd</option>
-      <option value="12">12_binary(89LJBWEF 10=vnti=8+8)</option>
+      <option value="0">0_iNg115(31):a-z+ADHTN</option>
+      <option value="1">1_Hindi15</option>
+      <option value="2">2_bANglA15</option>
+      <option value="3">3_korean15</option>
+      <option value="4">4_sinHalA15</option>
+      <option value="5">4_Tamil15</option>
+      <option value="6">6_Telugu15</option>
+      <option value="7">7_kannadA15</option>
+      <option value="8">8_malayAlam15</option>
+      <option value="9">9_oriya15</option>
+      <option value="Y">Y_guzrATi15</option>
+      <option value="J">J_gurmukhi15</option>
+      <option value="Q">Q_binaryv115(89YJQWPF 10=vnti=4*4)</option>
+      <option value="W">W_lHinDi15</option>
+      <option value="P">P_uHinDi15</option>
+      <option value="F">F_HinDi25</option>
+      <option value="10">10_eng115</option>
     </select>
   );
 };
