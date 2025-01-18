@@ -55,6 +55,30 @@ export const lkorean15 = localFont({ src: "./fonts/lkorean15.woff2", display: "s
 export const loriya15 = localFont({ src: "./fonts/loriya15.woff2", display: "swap", });
 export const ltamil15 = localFont({ src: "./fonts/ltamil15.woff2", display: "swap", });
 /////////////////
+export const ubangla15 = localFont({ src: "./fonts/ubangla15.woff2", display: "swap", });
+export const uguzrati15 = localFont({ src: "./fonts/uguzrati15.woff2", display: "swap", });
+export const ukannada15 = localFont({ src: "./fonts/ukannada15.woff2", display: "swap", });
+export const umalayalam15 = localFont({ src: "./fonts/umalayalam15.woff2", display: "swap", });
+export const usinhala15 = localFont({ src: "./fonts/usinhala15.woff2", display: "swap", });
+export const utelugu15 = localFont({ src: "./fonts/utelugu15.woff2", display: "swap", });
+export const ugurmukhi15 = localFont({ src: "./fonts/ugurmukhi15.woff2", display: "swap", });
+export const uhindi15 = localFont({ src: "./fonts/uhindi15.woff2", display: "swap", });
+export const ukorean15 = localFont({ src: "./fonts/ukorean15.woff2", display: "swap", });
+export const uoriya15 = localFont({ src: "./fonts/uoriya15.woff2", display: "swap", });
+export const utamil15 = localFont({ src: "./fonts/utamil15.woff2", display: "swap", });
+/////////////////
+export const lbangla25 = localFont({ src: "./fonts/lbangla25.woff2", display: "swap", });
+export const lguzrati25 = localFont({ src: "./fonts/lguzrati25.woff2", display: "swap", });
+export const lkannada25 = localFont({ src: "./fonts/lkannada25.woff2", display: "swap", });
+export const lmalayalam25 = localFont({ src: "./fonts/lmalayalam25.woff2", display: "swap", });
+export const lsinhala25 = localFont({ src: "./fonts/lsinhala25.woff2", display: "swap", });
+export const ltelugu25 = localFont({ src: "./fonts/ltelugu25.woff2", display: "swap", });
+export const lgurmukhi25 = localFont({ src: "./fonts/lgurmukhi25.woff2", display: "swap", });
+export const lhindi25 = localFont({ src: "./fonts/lhindi25.woff2", display: "swap", });
+export const lkorean25 = localFont({ src: "./fonts/lkorean25.woff2", display: "swap", });
+export const loriya25 = localFont({ src: "./fonts/loriya25.woff2", display: "swap", });
+export const ltamil25 = localFont({ src: "./fonts/ltamil25.woff2", display: "swap", });
+/////////////////
 export const ubangla25 = localFont({ src: "./fonts/ubangla25.woff2", display: "swap", });
 export const uguzrati25 = localFont({ src: "./fonts/uguzrati25.woff2", display: "swap", });
 export const ukannada25 = localFont({ src: "./fonts/ukannada25.woff2", display: "swap", });
@@ -66,13 +90,40 @@ export const uhindi25 = localFont({ src: "./fonts/uhindi25.woff2", display: "swa
 export const ukorean25 = localFont({ src: "./fonts/ukorean25.woff2", display: "swap", });
 export const uoriya25 = localFont({ src: "./fonts/uoriya25.woff2", display: "swap", });
 export const utamil25 = localFont({ src: "./fonts/utamil25.woff2", display: "swap", });
+/////////////////
+export const lbangla85 = localFont({ src: "./fonts/lbangla85.woff2", display: "swap", });
+export const lguzrati85 = localFont({ src: "./fonts/lguzrati85.woff2", display: "swap", });
+export const lkannada85 = localFont({ src: "./fonts/lkannada85.woff2", display: "swap", });
+export const lmalayalam85 = localFont({ src: "./fonts/lmalayalam85.woff2", display: "swap", });
+export const lsinhala85 = localFont({ src: "./fonts/lsinhala85.woff2", display: "swap", });
+export const ltelugu85 = localFont({ src: "./fonts/ltelugu85.woff2", display: "swap", });
+export const lgurmukhi85 = localFont({ src: "./fonts/lgurmukhi85.woff2", display: "swap", });
+export const lhindi85 = localFont({ src: "./fonts/lhindi85.woff2", display: "swap", });
+export const lkorean85 = localFont({ src: "./fonts/lkorean85.woff2", display: "swap", });
+export const loriya85 = localFont({ src: "./fonts/loriya85.woff2", display: "swap", });
+export const ltamil85 = localFont({ src: "./fonts/ltamil85.woff2", display: "swap", });
+/////////////////
+export const ubangla85 = localFont({ src: "./fonts/ubangla85.woff2", display: "swap", });
+export const uguzrati85 = localFont({ src: "./fonts/uguzrati85.woff2", display: "swap", });
+export const ukannada85 = localFont({ src: "./fonts/ukannada85.woff2", display: "swap", });
+export const umalayalam85 = localFont({ src: "./fonts/umalayalam85.woff2", display: "swap", });
+export const usinhala85 = localFont({ src: "./fonts/usinhala85.woff2", display: "swap", });
+export const utelugu85 = localFont({ src: "./fonts/utelugu85.woff2", display: "swap", });
+export const ugurmukhi85 = localFont({ src: "./fonts/ugurmukhi85.woff2", display: "swap", });
+export const uhindi85 = localFont({ src: "./fonts/uhindi85.woff2", display: "swap", });
+export const ukorean85 = localFont({ src: "./fonts/ukorean85.woff2", display: "swap", });
+export const uoriya85 = localFont({ src: "./fonts/uoriya85.woff2", display: "swap", });
+export const utamil85 = localFont({ src: "./fonts/utamil85.woff2", display: "swap", });
 
+/////////////////
 
 /*//
 ~/mg/vrcl/shenlu/components/lifonts/fonts $ls [bghkmost]*[a-z]15.*
 ~/mg/vrcl/shenlu/components/lifonts/fonts $ls [bghkmost]*[a-z]25.*
-~/mg/vrcl/shenlu/components/lifonts/fonts $ls u*[a-z]25.*
 ~/mg/vrcl/shenlu/components/lifonts/fonts $ls l*[a-z]15.*
+~/mg/vrcl/shenlu/components/lifonts/fonts $ls u*[a-z]15.*
+~/mg/vrcl/shenlu/components/lifonts/fonts $ls l*[a-z]25.*
+~/mg/vrcl/shenlu/components/lifonts/fonts $ls u*[a-z]25.*
 ~/mg/vrcl/shenlu/components/lifonts/fonts $ls [bghkmost]*[a-z]115.*
 ~/mg/vrcl/shenlu/components/lifonts/fonts $ls [beih]*[a-z]115.*
 
