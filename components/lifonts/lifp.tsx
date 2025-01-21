@@ -82,8 +82,8 @@ export default FontPicker;
 // r/l	ㄹ
 // m	ㅁ	good
 // n	ㄴ	good
-// bpf	ㅂ
-
+// bpf	 ㅂ
+// v (봐)
 //ㄷ	d/t
 //ㄱ	g/k
 //ㅋ	k
@@ -93,7 +93,10 @@ export default FontPicker;
 //ㅈ	j/ch
 //ㅊ	ch(/t)
 
-
+ㅂsounds like ‘B’ and represents the ‘v’.
+ㅗ is pronounced ‘o’.
+ㅏ is pronounced ‘a’.
+봐 = Bwa = Va
 
 //ㅎ	h
 
