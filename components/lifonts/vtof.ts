@@ -33,7 +33,26 @@ import {
 
 	ubangla85, uhindi85, umalayalam85, utamil85, 
 	ugurmukhi85, ukannada85, uoriya85, utelugu85, 
-	uguzrati85, ukorean85, usinhala85 
+	uguzrati85, ukorean85, usinhala85,
+
+	lbangla05, lhindi05, lmalayalam05, ltamil05, 
+	lgurmukhi05, lkannada05, loriya05, ltelugu05, 
+	lguzrati05, lkorean05, lsinhala05, 
+
+	ubangla05, uhindi05, umalayalam05, utamil05, 
+	ugurmukhi05, ukannada05, uoriya05, utelugu05, 
+	uguzrati05, ukorean05, usinhala05,
+
+	hexbangla15, hexguzrati15, hexkannada15, hexmalayalam15, hexsinhala15, hextelugu15,
+	hexgurmukhi15, hexhindi15, hexkorean15, hexoriya15, hextamil15,
+
+	hexlbangla05, hexlhindi05, hexlmalayalam05, hexltamil05,
+	hexlgurmukhi05, hexlkannada05, hexloriya05, hexltelugu05,
+	hexlguzrati05, hexlkorean05, hexlsinhala05,
+
+	hexubangla05, hexuhindi05, hexumalayalam05, hexutamil05,
+	hexugurmukhi05, hexukannada05, hexuoriya05, hexutelugu05,
+	hexuguzrati05, hexukorean05, hexusinhala05
 } from "./localfonts";
 /*
 ~/mg/vrcl/shenlu/components/lifonts/fonts $ls [bghkmost]*[a-z]15.*
