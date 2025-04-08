@@ -1,17 +1,17 @@
 const HeaderNavLinks = [
-  { title: "Home", href: "/", }, { title: "blog", href: "/blog", },
-  { title: "works", href: "/works", }, { title: "About", href: "/about", },
+  { title: "home", href: "/", }, { title: "blog", href: "/blog", },
+  { title: "works", href: "/works", }, { title: "about", href: "/about", },
 ];
 
 const HomePage = {
   metadata: {
-    metadataBase: new URL("https://zava8.github.io"),
-    title: { default: "vimAl blog", template: `%s | vimAl blog`, },
+    metadataBase: new URL("https://zawa8.vercel.app"),
+    title: { default: "zawa8.vercel.app", template: `%s | vimAl blog`, },
     description: "news in fonts bAsed on Hscii : hex symbolic code for informAtion interchAnge",
     openGraph: {
-      title: "zava8",
+      title: "zawa8",
       description: "indie developer and data visualisation enthusiast.",
-      url: "https://zava8.github.io",
+      url: "https://zawa8.vercel.app",
       siteName: "Hscii fonts news",
       locale: "en-US",
       type: "website",
@@ -20,11 +20,11 @@ const HomePage = {
     robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-video-preview": -1, "max-snippet": -1, }, },
     icons: { shortcut: "/icon.svg", },
   },
-  title: "vimal kumAr",
+  title: "wimXl kumAr",
   description: "Hscii developer keypad font transliterator",
   motto: "Hscii 8finger maThs 5adhtn 5ADHTN ",
   url: "https://aaztk.vercel.app",
-  avatar_url: "/images/8ledlogo.png",
+  avatar_url: "/images/avatar2.jpg", //lotus1.jpg
 };
 
 const WorksPage = {
@@ -33,15 +33,15 @@ const WorksPage = {
     {
       href: "https://aaztk.vercel.app",
       title: "zAvA8 laNguage(Hscii)",
-      logoUrl: "/images/mathcheap-logo.svg",
-      imageUrl: "/images/mathcheap-showcase.png",
+      logoUrl: "/images/avatar2.jpg",
+      imageUrl: "/images/avatar2.jpg",
       description: "zAvA8 based on Hscii(hex symbolic code for information interchange) based fonts",
     },
     {
       href: "https://aaztk.vercel.app",
       title: "zavascript8 bAsed on Hscii",
-      logoUrl: "/images/aes-logo.svg",
-      imageUrl: "/images/aes-showcase.png",
+      logoUrl: "/images/avatar2.jpg",
+      imageUrl: "/images/avatar2.jpg",
       description:
         "zAvAscript8 based on Hscii(hex symbolic code for information interchange) based fonts",
     },
@@ -49,7 +49,7 @@ const WorksPage = {
 };
 
 const AboutPage = {
-  metadata: { title: "Hscii based fonts", description: "iNglish31 = a-z + 5ADHTN . fb.com/ztrabc . iNglish31 and indian_korean_115.ttf/woff2" },
+  metadata: { title: "hscii fonts", description: "inglish31 = a-z + 5ADHTN . fb.com/ztrabc . ing115b.ttf/woff2" },
 };
 
 export { HeaderNavLinks, HomePage, WorksPage, AboutPage };

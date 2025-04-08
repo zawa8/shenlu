@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 
 import { HeaderNavLinks } from "@/data/meta-data";
 import ThemeSwitcher from "@/components/theme-switcher";
-// import FontPicker from "@/components/lifonts/lifonts";
 import FontPicker from "@/components/lifonts/lifp";
 
 const Header: NextPage = () => {
@@ -15,7 +14,6 @@ const Header: NextPage = () => {
   return (
     <header className="flex max-w-3xl container mx-auto px-6 py-4">      
       <nav className="flex flex-wrap w-auto">
-        {/* <ul className="flex flex-1 ml-[-0.5rem] justify-center md:flex-row md:justify-start space-x-1 md:space-x-0"> */}
         <ul className="flex flex-wrap items-center justify-center text-gray-900 dark:text-white">
           {HeaderNavLinks?.map((nav: any) => (
             <li key={nav?.title}>

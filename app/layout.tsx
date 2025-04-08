@@ -7,14 +7,14 @@ import { ThemeProvider } from "next-themes";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import { hindi15 } from '@/components/lifonts/localfonts';
+import { hindi15b } from '@/components/lifonts/localfonts';
 import { HomePage } from "@/data/meta-data";
 
 export const metadata: Metadata = HomePage.metadata;
 
 export default function RootLayout({ children, }: { children: React.ReactNode; }) { return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className={`flex flex-col h-screen ${hindi15.className}`}>
+      <body className={`flex flex-col h-screen ${hindi15b.className}`}>
         <ThemeProvider enableSystem={true} attribute="class">
           <Header />
           <main className="max-w-3xl container text-black dark:text-white mx-auto px-6 py-6 flex-1 leading-6">
